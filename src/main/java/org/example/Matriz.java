@@ -44,7 +44,7 @@ public class Matriz {
     public void imprimirMatriz() {
         for (int i = 0; i < maxFila; i++) {
             for (int j = 0; j < maxColumna; j++) {
-                System.out.print(matriz[i][j] + " ");
+                System.out.print(matriz[i][j] + "\t");
             }
             System.out.println();
         }
